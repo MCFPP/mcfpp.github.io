@@ -27,7 +27,7 @@ svg.eyecons {
         color: $foreground;
 
         &:hover {
-            background-color: clra(0.16);
+            background-color: rgba(0, 0, 0, 0.16);
             color: $foreground;
         }
 
