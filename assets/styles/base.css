@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=family=JetBrains+Mono:wght@400;700&family=Poppins:wght@400;700&display=swap");
+header > hr, body, .button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
+}
+
+header, .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
+svg.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+svg.logotype {
+  height: 1rem;
+}
+
+svg.eyecons {
+  min-width: 1rem;
+  min-height: 1rem;
+}
+
+.button {
+  transition: background-color 200ms;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button {
+  background-color: transparent;
+  color: #ffffff;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+}
+.button:focus {
+  outline: 1px solid #ffffff;
+}
+.button[disabled] {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+body {
+  background-color: #181d31;
+  color: #ffffff;
+}
+
+header > hr {
+  height: 0px;
+  width: 0px;
+  margin: auto;
+}
+
+header {
+  padding: 0.5rem 1rem;
+  font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #4a7eea;
+}
+header h1 {
+  font-size: 1rem;
+  line-height: 1rem;
+  margin: 0;
+}

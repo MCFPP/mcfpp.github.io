@@ -1,0 +1,41 @@
+%reset {
+    appearance: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    font-style: normal;
+}
+
+%flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+%flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+}
+
+%flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%block {
+    transition: background-color 200ms;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}

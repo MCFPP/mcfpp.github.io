@@ -1,0 +1,11 @@
+$background: #181d31;
+$foreground: #ffffff;
+
+$primary: #4a7eea;
+$secondary: #7dea4b;
+$warning: #fedb29;
+$disturbing: #e80047;
+
+@function clra($opacity) {
+    @return rgba(255, 255, 255, $opacity);
+}

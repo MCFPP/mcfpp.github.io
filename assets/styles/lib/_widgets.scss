@@ -1,0 +1,43 @@
+svg.logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+svg.logotype {
+    height: 1rem;
+}
+
+svg.eyecons {
+    min-width: 1rem;
+    min-height: 1rem;
+}
+
+.button {
+    @extend %reset;
+    @extend %flex-row;
+
+    transition: background-color 200ms;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    & {
+        background-color: transparent;
+        color: $foreground;
+
+        &:hover {
+            background-color: clra(0.16);
+            color: $foreground;
+        }
+
+        &:focus {
+            outline: 1px solid $foreground;
+        }
+    }
+
+    &[disabled] {
+        pointer-events: none;
+        opacity: 0.4;
+    }
+}
